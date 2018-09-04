@@ -138,11 +138,11 @@
                     <form class="col s12" method="post">
                       <div class="row">
                         <div class="input-field col s12 m6">
-                          <input id="nombre" type="text" class="validate">
+                          <input id="nombre" type="text" class="validate" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                           <label for="nombre">Ingrese su Nombre</label>
                         </div>
                         <div class="input-field col s12 m6">
-                          <input id="email" type="text" class="validate">
+                          <input id="email" type="email" class="validate">
                           <label for="email">Ingrese su Email</label>
                         </div>
                       </div>
@@ -202,7 +202,7 @@
       <script src="js/materialize.js"></script>
       <script src="lib/wow/wow.min.js"></script>
       <script src="js/jquery.nicescroll.min.js"></script>
-      <script src="js/main.js"></script>
+      <script src="js/main.js"></script>    
 
   </body>
 </html>

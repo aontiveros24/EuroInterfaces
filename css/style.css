@@ -582,6 +582,38 @@ img.responsive-img{
   color: #18d26e;
 }
 
+#contacto .form #sendmessage {
+  color: #03C4EB;
+  border: 1px solid #03C4EB;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contacto .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
 #contacto .form button[type="submit"] {
   background: #18d26e;
   border: 0;
